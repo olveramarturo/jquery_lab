@@ -1,29 +1,29 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Jquery trials</title>
-    <link href="styles.css" rel="stylesheet" />
+    <title>Jquery trials - Menu list</title>
+    <style>
+      ul{
+        font-family:"Verdana", sans-serif;
+        background-color: red;
+        color: white;
+        padding: 8px 0;
+      }
+      li{
+        padding: 8px 20px;
+        display: inline;
+      }
+      li.active{
+        background-color: black;
+      }
+    </style>    
   </head>
 
   <body>
-    <br>
-    <br>
-
-    <center>
-      <p>The Docker LAMP stack is working.</p>
-    </center>
-
-    <center>
-      <p>The configuration information can be found <a href="https://registry.hub.docker.com/u/linode/lamp/">here</a> or <a href="https://www.linode.com/docs/websites/hosting-a-website">here</a></p>
-    </center>
-
-    <center>
-      <p>This index.html file is located in the "/var/www/example.com/public_html" directory.</p>
-    </center>
-    <h1>Introduccion </h1>
-    <h2>Whom is this book for?</h2>
-    <h2>Errata</h2>
-    <h1>Chapter 1</h1>
-    <h2>What you will learn</h2>
+    <ul>
+      <li class="active">Home</li>
+      <li>Products</li>
+      <li>About</li>
+    </ul>
   </body>
 </html>

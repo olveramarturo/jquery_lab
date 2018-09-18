@@ -9,9 +9,13 @@ h1 {
   background-color: navy;
 }
 
-h1:hover {
+h1.clicked {
   color: navy;
   background-color: lightgray;
+}
+
+h1.node{
+  font-family:monospace;
 }
 
 h2 {
@@ -19,3 +23,4 @@ h2 {
   margin-left:40px;
   border-bottom: 4px dotted black;
 }
+
